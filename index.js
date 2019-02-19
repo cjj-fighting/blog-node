@@ -15,6 +15,6 @@ app.get('/a', function(req, res) {
     res.send(data)
 })
 
-app.listen(3000, function(req, res) {
-    console.log('The sever is running at port 3000')
+app.listen(3001, function(req, res) {
+    console.log('The sever is running at port 3001')
 })
