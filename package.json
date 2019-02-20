@@ -1,0 +1,33 @@
+{
+  "name": "backstate",
+  "version": "1.0.0",
+  "description": "> 这是博客后台,采用node+express+mongodb",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config-lite": "^2.1.0",
+    "connect-mongo": "^2.0.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "md5": "^2.2.1",
+    "mongolass": "^4.4.2",
+    "mongoose": "^5.4.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjj-fighting/blog-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjj-fighting/blog-node/issues"
+  },
+  "homepage": "https://github.com/cjj-fighting/blog-node#readme"
+}
